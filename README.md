@@ -1,28 +1,28 @@
-# CatHerder
-Short description and motivation.
+# cat_herder
 
-## Usage
-How to use my plugin.
+Minimal Rails asset pipeline experiment.
+
 
 ## Installation
+
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'cat_herder'
+gem "cat_herder"
 ```
 
-And then execute:
+And then run:
+
 ```bash
-$ bundle
+$ bundle install
 ```
 
-Or install it yourself as:
-```bash
-$ gem install cat_herder
-```
 
 ## Contributing
-Contribution directions go here.
+
+Run `rake test` to run the tests.
+
 
 ## License
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+[MIT License](MIT-LICENSE)
