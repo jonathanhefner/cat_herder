@@ -1,4 +1,5 @@
 /.bundle/
+/.yardoc
 /doc/
 /Gemfile.lock
 /log/*.log
