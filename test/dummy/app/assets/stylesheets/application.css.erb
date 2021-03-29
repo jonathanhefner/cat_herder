@@ -1,0 +1,5 @@
+@import url(<%= stylesheet_path("scaffold") %>);
+
+<% glob("**/_*.css") do |partial| -%>
+<%= render partial %>
+<% end -%>
