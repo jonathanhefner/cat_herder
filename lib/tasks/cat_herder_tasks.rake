@@ -1,4 +1,8 @@
-# desc "Explaining what the task does"
-# task :cat_herder do
-#   # Task goes here
-# end
+# frozen_string_literal: true
+
+namespace :cat_herder do
+  desc "Compile all assets"
+  task :precompile => :environment do
+    CatHerder::Assets.precompile
+  end
+end
